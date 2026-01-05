@@ -2,7 +2,7 @@ from pyscript import document, display
 
 def more():
 
-    read_more = f"""
+    read_more = """
     Casa : 
 
     The Casa Program encourages the transformation of children from ages 3 to 5 as 
@@ -44,3 +44,4 @@ def more():
 
 
     display(read_more, target="MORE")
+
