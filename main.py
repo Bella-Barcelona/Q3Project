@@ -42,4 +42,5 @@ def more():
     """
 
 
-    document.getElementById("MORE").innerText = read_more
+
+    display(read_more, target="MORE")
